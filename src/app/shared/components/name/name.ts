@@ -1,3 +1,6 @@
-/**
- * Created by luke on 20.11.16.
- */
+export class Name {
+  public id: number;
+  constructor(
+    public value: string) {
+  }
+}

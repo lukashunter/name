@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <h1>
+    {{title}}
+    {{name | json}}
+  </h1>
+
+  <name [model]="name"></name>
+</div>
